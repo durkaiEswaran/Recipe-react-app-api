@@ -1,0 +1,126 @@
+#root {
+  /* max-width: 1280px; */
+  padding:0;
+  margin: 0;
+}
+.header-con{
+  width: 100%;
+  height:100px;
+  background-color: whitesmoke;
+display: flex;
+justify-content: center;
+align-items: center;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10),0px 1px 2px 0px rgba(0,0,0,0.06);
+}
+.header-con h1{
+  color: rgb(0, 0, 0);
+  font-family: 'cursive';
+}
+.search{
+  margin:40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.search input{
+  padding:10px;
+  border:solid 1px rgb(222, 218, 218);
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: #fff;
+  font-size: 18px;
+  color:black;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  color:white;
+  transition: border-color 0.25s;
+}
+.btn:hover {
+  border-color: #646cff;
+}
+
+.counter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count_container{
+  display: flex;
+  position:relative;
+}
+.minus,.plus{
+  border-radius: 50%;
+  padding: 5px;
+  width:25px;
+  height:25px;
+  position: relative;
+  top:50px;
+  background-color: #7f7b7b;
+  color:rgb(228, 219, 219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.count_container h2{
+  padding:30px;
+  border: 1.5px solid;
+  border-radius: 50%;
+}
+.recipe{
+  background-color: rgb(242, 231, 231);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top:40px;
+}
+.btn-recipe{
+  all:none;
+  background-color: rgb(230, 141, 109);
+  padding: 0px 5px;
+  height: 60px;
+  margin:7px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recipe h4,p,.ingrediants h2,ul{
+  color: black;
+}
+section{
+  color:black;
+}
+.recipe-app{
+  color:#475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.recipe-app ul li, .recipe-app ol li{
+  margin-bottom: 8px;
+}
+.logo{
+  border-radius: 50%;
+  padding:0px 10px;
+}
+.list-ing{
+  font-size: 18px;
+  color:#1a1a1a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
